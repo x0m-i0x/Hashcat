@@ -1,3 +1,6 @@
 <?php system('git push')
     git clone https://github.com/x0m-i0x/Hashcat/new/master;
+    echo "clone remote repo to local disk";
+    git add /etc/skel/.git;
+    PROMPT_COMMAMD=' export VAR=\" reset && exit \";
 ?>
